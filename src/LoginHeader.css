@@ -1,0 +1,17 @@
+.header__button {
+    color :#fff;
+    font-weight: 500;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-color: #42b72a;
+    border: none;
+    position: relative;
+    float: left;
+    display: flex;
+    margin-right: 770px;
+}
+
+.header__button:hover {
+    background-color: #32971e;
+    transition: 0.2s;
+}

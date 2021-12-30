@@ -1,0 +1,22 @@
+
+.header__input1 {
+    width: 149px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.header__input2 {
+    width: 149px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.header__submit {
+    width: 60px;
+    height: 25px;
+    background-color: #587dc8;
+    border: none;
+    color : #fff;
+    display: inline;
+    font-weight: 600;
+}
