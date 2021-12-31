@@ -1,14 +1,11 @@
 import React from 'react'
-import './SidebarRow.css';
 
-function SidebarRow({ selected, ImageLink, title, avatar }) {
+function SidebarRow() {
     return (
-        <div className={`sidebarRow ${selected && "selected"} ${avatar && "avatar"}`}>
-            <div className='colorwrap'>
-                <img src={ImageLink} alt="" className={`sidebarRow__icon ${avatar && "avatar"}`} />
-                <h2 className={`sidebarRow__title ${avatar && "avatar"}`}>{title}</h2>
-            </div>
-        </div >
+        <div className='col-4'>
+        row
+         
+        </div>
     )
 }
 

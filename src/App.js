@@ -36,9 +36,9 @@ function App()
           </Route>
           <Route path="/">
             <HomeHeader user={user} />
-            <div className="app__page">
+            <div className="app__page row ">
               <Sidebar user={user} />
-              <div className="app__posts">
+              <div className="app__posts ">
                 <Posts user={user} />
               </div>
               <Sidebar2 />

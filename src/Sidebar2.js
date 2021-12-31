@@ -1,9 +1,10 @@
 import React from 'react'
 import './Sidebar2.css';
 
-function Sidebar2() {
+function Sidebar2() 
+{
     return (
-        <div className="sidebar2">
+        <div className="sidebar2 col-4">
             <ul>
                 <li>Privacy </li>
                 <li>Terms </li>

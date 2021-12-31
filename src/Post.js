@@ -113,12 +113,10 @@ function Post({ postId, origuser, username, userId, caption, imageUrl, noLikes }
     }
 
     return (
-        <div className="post">
+        <div className="post col-8 shadow">
             <div className="post__header">
                 <Avatar
                     className="post__avatar"
-                    alt=""
-                    src=""
                 />
                 <h3>{username}</h3>
                 <i class="post__verified" />
@@ -168,8 +166,6 @@ function Post({ postId, origuser, username, userId, caption, imageUrl, noLikes }
                     <div className={`comments__show myself`}>
                         <Avatar
                             className="post__avatar2"
-                            alt=""
-                            src=""
                         />
                         <div class="container__comments">
                             <p><span>{comment.username}</span><i class="post__verified"></i>&nbsp; {comment.text}</p>

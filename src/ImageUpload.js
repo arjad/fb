@@ -118,14 +118,13 @@ function ImageUpload({ username }) {
                 <div style={modalStyle} className={classes.paper}>
                     <form className="imageupload__commentAssign">
                         <div className="imageupload__firstSectionModal">
-                            <h3>Create Post</h3>
+                            <h3>Write Something</h3>
                         </div>
                         <div className="imageupload__secondSectionModal">
                             <Avatar
                                 className="imageupload__avatar"
-                                alt=""
                             />
-                            <input type="text" onChange={(e) => setCaption(e.target.value)} onClick={handleOpen} placeholder={`What's on your mind ${username} ?`} />
+                            <input type="text" onChange={(e) => setCaption(e.target.value)} onClick={handleOpen} placeholder={`Anything in your mind ${username} ???`} />
                         </div>
                         <hr />
                         <div className="imageupload__imageuploadModal" onClick={uploadFileWithClick}>
@@ -153,7 +152,7 @@ function ImageUpload({ username }) {
 
             <div className="imageupload__container">
                 <div className="imageupload__firstSection">
-                    <h3>Create Post</h3>
+                    <h3>Write something???</h3>
                 </div>
 
                 <div className="imageupload__secondSection">
@@ -161,7 +160,7 @@ function ImageUpload({ username }) {
                         className="imageupload__avatar"
                         alt=""
                     />
-                    <input type="text" onClick={handleOpen} placeholder={`What's on your mind ${username} ?`} />
+                    <input type="text" onClick={handleOpen} placeholder={`anything in your mind ${username} ?`} />
                 </div>
                 <hr />
                 <div className="uploadimage__options" onClick={setOpen}>
